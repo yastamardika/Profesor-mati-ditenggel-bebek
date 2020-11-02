@@ -49,6 +49,6 @@ public class PlayerScript : MonoBehaviour
             animator.SetInteger("ver", 0);
         }
         float speed=2 *Time.deltaTime;
-        transform.Transform(speed);
+        transform.Translate(v * speed);
     }
 }
